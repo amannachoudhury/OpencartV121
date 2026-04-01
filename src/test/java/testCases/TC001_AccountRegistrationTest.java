@@ -34,7 +34,8 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 			//regpage.setTelephone(p.getProperty("phone"));  //reading phone number from properties file
 
 			String password=randomeAlphaNumeric();
-
+			
+			logger.info("password entered");
 			regpage.setPassword(password);
 			regpage.setConfirmPassword(password);
 
